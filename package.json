@@ -1,0 +1,19 @@
+{
+  "name": "medium-xml-to-json",
+  "version": "1.0.0",
+  "description": "A tool to convert Medium RSS feeds from XML to JSON. Fetch XML data from the feed URL, parse it into a DOM object, extract and transform the data into JSON format, and serve it through an API endpoint for easy integration into applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Nitesh Ranjan Mohanty",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "xml2js": "^0.6.2"
+  }
+}
